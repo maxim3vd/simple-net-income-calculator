@@ -7,3 +7,6 @@ items = {
     "Doughnut": {"price": 2.5},
     "Pancake": {"price": 3.2}
 }
+
+# Display the header "Prices:"
+print("Prices:")
