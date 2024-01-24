@@ -10,3 +10,7 @@ items = {
 
 # Display the header "Prices:"
 print("Prices:")
+
+# Display the list of items and prices
+for item, data in items.items():
+    print(f"{item}: ${data['price']}")
