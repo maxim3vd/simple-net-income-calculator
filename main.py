@@ -11,6 +11,6 @@ items = {
 # Display the header "Earned amount:"
 print("Earned amount:")
 
-# Display the list of items and prices
+# Calculate and display the earned amount for each item
 for item, data in items.items():
-    print(f"{item}: ${data['price']}")
+    print(f"{item}: ${round(data['price'] * data['quantity'])}")
