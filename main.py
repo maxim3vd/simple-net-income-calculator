@@ -18,3 +18,6 @@ for item, data in items.items():
 # Calculate and display the total income
 total_income = sum(item["price"] * item["quantity"] for item in items.values())
 print("\nIncome:", f"${int(total_income) if total_income.is_integer() else total_income}")
+
+# Ask users for staff expenses
+staff_expenses = float(input("Staff expenses: "))
