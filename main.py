@@ -21,3 +21,6 @@ print("\nIncome:", f"${int(total_income) if total_income.is_integer() else total
 
 # Ask users for staff expenses
 staff_expenses = float(input("Staff expenses: "))
+
+# Ask users for other expenses
+other_expenses = float(input("Other expenses: "))
