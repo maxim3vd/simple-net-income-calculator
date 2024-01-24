@@ -8,8 +8,8 @@ items = {
     "Pancake": {"price": 3.2, "quantity": 25}
 }
 
-# Display the header "Prices:"
-print("Prices:")
+# Display the header "Earned amount:"
+print("Earned amount:")
 
 # Display the list of items and prices
 for item, data in items.items():
