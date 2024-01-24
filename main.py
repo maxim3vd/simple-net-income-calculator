@@ -24,3 +24,7 @@ staff_expenses = float(input("Staff expenses: "))
 
 # Ask users for other expenses
 other_expenses = float(input("Other expenses: "))
+
+# Calculate and display the net income
+net_income = total_income - staff_expenses - other_expenses
+print(f"Net income: ${int(net_income) if net_income.is_integer() else net_income}")
